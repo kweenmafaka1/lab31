@@ -1,7 +1,10 @@
-a = int(input())
-b = int(input())
-if a <= b:
-    for i in range(a,b+1):
-        print(i)
-else:
-	pass
+from random import randint
+from random import randrange
+
+print("Сколько лет Адилету?", randint(0, 25))
+print("Сколько лет Адилету?", randint(0, 25))
+
+print("Сколько лет маме Адилета?", randrange(38, 40, 56))
+
+family = ['Adilet', 'Gulnaz', 'Aizhan']
+print(list(enumerate(family, start=1)))
